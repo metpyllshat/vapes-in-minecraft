@@ -1,5 +1,7 @@
 {
-	"values":	[
-		"nbt:setup"
-	]
+    "replace": false,
+    "values": [
+        "nbt:setup",
+        "ender_craft:init"
+    ]
 }

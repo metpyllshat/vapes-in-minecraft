@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Minifit!",
+            "bold": false,
+            "color": "gray"
+        },
+        "description": {
+            "text": "Скрафтите Minifit",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:13}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+        
+    },
+    "criteria": {
+        "Ok": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "nbt:start"
+}

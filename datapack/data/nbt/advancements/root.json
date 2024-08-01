@@ -1,0 +1,70 @@
+{
+    "display": {
+        "title": {
+            "text": "ТЫ СОБРАЛ ИХ ВСЕ",
+            "bold": false,
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Скрафтите абсолютно все подики",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Ok": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:carrot_on_a_stick",
+                        "nbt": "{CustomModelData:11}"
+                    },
+                    {
+                        "item": "minecraft:carrot_on_a_stick",
+                        "nbt": "{CustomModelData:12}"
+                    },
+                    {
+                        "item": "minecraft:carrot_on_a_stick",
+                        "nbt": "{CustomModelData:13}"
+                    },
+                    {
+                        "item": "minecraft:carrot_on_a_stick",
+                        "nbt": "{CustomModelData:14}"
+                    },
+                    {
+                        "item": "minecraft:carrot_on_a_stick",
+                        "nbt": "{CustomModelData:4}"
+                    },
+                    {
+                        "item": "minecraft:carrot_on_a_stick",
+                        "nbt": "{CustomModelData:3}"
+                    },
+                    {
+                        "item": "minecraft:carrot_on_a_stick",
+                        "nbt": "{CustomModelData:16}"
+                    },
+                    {
+                        "item": "minecraft:carrot_on_a_stick",
+                        "nbt": "{CustomModelData:15}"
+                    },
+                    {
+                        "item": "minecraft:carrot_on_a_stick",
+                        "nbt": "{CustomModelData:1}"
+                    },
+                    {
+                        "item": "minecraft:carrot_on_a_stick",
+                        "nbt": "{CustomModelData:2}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "nbt:start"
+}

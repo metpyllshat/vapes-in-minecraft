@@ -1,13 +1,29 @@
 {
+    "display": {
+        "title": {
+            "text": "ЭТО ЧАРОНЧИК БЕЙБИ!",
+            "bold": false,
+            "color": "blue"
+        },
+        "description": {
+            "text": "Скрафтите charonbaby",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:1}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+        
+    },
     "criteria": {
-        "Unlocked": {
-            "trigger": "minecraft:recipe_unlocked",
-            "conditions": {
-                "recipe": "nbt:charonbaby"
-            }
+        "Ok": {
+            "trigger": "minecraft:impossible"
         }
     },
-    "rewards": {
-        "function": "nbt:give"
-    }
+    "parent": "nbt:start"
+    
 }

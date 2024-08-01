@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "БА-БАХ!",
+            "bold": false,
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Вейп взорвался",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:tnt"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+        
+        
+    },
+    "criteria": {
+        "Ok": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "nbt:start"
+}

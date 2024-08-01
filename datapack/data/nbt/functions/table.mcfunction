@@ -1,0 +1,5 @@
+recipe take @a nbt:table
+advancement revoke @s only nbt:table
+clear @s minecraft:knowledge_book 1
+give @s pufferfish_spawn_egg{EntityTag:{id:"minecraft:armor_stand",Invisible:1b,DisabledSlots:4144959,Invulnerable:1b,NoGravity:1b,Tags:["ender_craft","Create"],ArmorItems:[{},{},{},{id:"minecraft:white_stained_glass_pane",tag:{CustomModelData:3},Count:1}],ArmorDropChances:[0f,0f,0f,0f],Rotation:[0F,0F]},display:{Name:'{"text":"Верстак Для Вейпов","italic": false}'}} 1
+tellraw @s ["",{"text":"\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0432\u0441\u0435 \u043a\u0440\u0430\u0444\u0442\u044b \u043c\u043e\u0436\u043d\u043e","color":"yellow"},{"text":" "},{"text":"\u0442\u0443\u0442","bold":true,"underlined":true,"color":"green","clickEvent":{"action":"open_url","value":"https://docs.google.com/document/d/1LQOW5KlB1NofkXpYtD6ungwfPtFopWfWWt67qakQeo0/edit?usp=sharing"}}]

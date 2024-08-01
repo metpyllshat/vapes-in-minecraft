@@ -1,5 +1,7 @@
 {
-	"values":	[
-		"nbt:main"
-	]
+    "replace": false,
+    "values": [
+        "nbt:main",
+        "ender_craft:main"
+    ]
 }

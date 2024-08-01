@@ -1,0 +1,42 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/paper"
+	},	
+	"overrides": [
+		{"predicate": {"custom_model_data":1}, "model": "details/plastic"},
+		{"predicate": {"custom_model_data":2}, "model": "details/scheme"},
+		{"predicate": {"custom_model_data":3}, "model": "details/ispar"},
+		{"predicate": {"custom_model_data":4}, "model": "details/screen"},
+		{"predicate": {"custom_model_data":5}, "model": "details/carbon"},
+		{"predicate": {"custom_model_data":6}, "model": "details/charon_body"},
+		{"predicate": {"custom_model_data":7}, "model": "details/charon_top"},
+		{"predicate": {"custom_model_data":8}, "model": "details/charon_skin"},
+		{"predicate": {"custom_model_data":9}, "model": "details/minifit_body"},
+		{"predicate": {"custom_model_data":10}, "model": "details/minifit_top"},
+		{"predicate": {"custom_model_data":11}, "model": "details/xros_body"},
+		{"predicate": {"custom_model_data":12}, "model": "details/xros_top"},
+		{"predicate": {"custom_model_data":13}, "model": "details/pasito1_body"},
+		{"predicate": {"custom_model_data":14}, "model": "details/pasito1_top"},
+		{"predicate": {"custom_model_data":15}, "model": "details/pasito1_drip"},
+		{"predicate": {"custom_model_data":16}, "model": "details/aegis_body"},
+		{"predicate": {"custom_model_data":17}, "model": "details/aegis_top"},
+		{"predicate": {"custom_model_data":18}, "model": "details/aegis_drip"},
+		{"predicate": {"custom_model_data":19}, "model": "details/manta_body"},
+		{"predicate": {"custom_model_data":20}, "model": "details/manta_top"},
+		{"predicate": {"custom_model_data":21}, "model": "details/manta_drip"},
+		{"predicate": {"custom_model_data":22}, "model": "details/manta_skin"},
+		{"predicate": {"custom_model_data":23}, "model": "details/pasito2_body"},
+		{"predicate": {"custom_model_data":24}, "model": "details/pasito2_top"},
+		{"predicate": {"custom_model_data":25}, "model": "details/pasito2_drip"},
+		{"predicate": {"custom_model_data":26}, "model": "details/rx300_body"},
+		{"predicate": {"custom_model_data":27}, "model": "details/rx300_top"},
+		{"predicate": {"custom_model_data":28}, "model": "details/rx300_drip"},
+		{"predicate": {"custom_model_data":29}, "model": "details/mechmod_body"},
+		{"predicate": {"custom_model_data":30}, "model": "details/mechmod_top"},
+		{"predicate": {"custom_model_data":31}, "model": "details/mechmod_drip"},
+		{"predicate": {"custom_model_data":32}, "model": "details/mechmod_coil"},
+		{"predicate": {"custom_model_data":33}, "model": "details/akb"},
+		{"predicate": {"custom_model_data":34}, "model": "details/battery"}
+	]
+}

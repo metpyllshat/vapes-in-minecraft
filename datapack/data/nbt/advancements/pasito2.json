@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Pasito2!",
+            "bold": false,
+            "color": "black"
+        },
+        "description": {
+            "text": "Скрафтите Pasito2",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:14}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+        
+    },
+    "criteria": {
+        "Ok": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "nbt:start"
+}

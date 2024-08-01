@@ -1,0 +1,10 @@
+##
+ # reload2.mcfunction
+ # 
+ #
+ # Created by Scythe
+##
+#box
+execute as @e[nbt=!{Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:16,Damage:0}}},nbt=!{Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:16,box_zamen:10}}},type=item,nbt={Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:16,box_zamen:9}}}] if entity @s at @s if entity @e[type=item,nbt={Item:{id:"minecraft:potion",Count:1b,tag:{CustomModelData:5}}},distance=..1] if entity @e[type=minecraft:item,distance=..1] run execute unless entity @e[type=item,nbt={Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:16,Damage:0}}}] run summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:16,box_zamen:10,display:{Name:'{"text":"Wismec RX300","color":"dark_gray"}'}}}}
+execute as @e[nbt=!{Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:16,Damage:0}}},nbt=!{Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:16,box_zamen:10}}},type=item,nbt={Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:16,box_zamen:9}}}] if entity @s at @s if entity @e[type=item,nbt={Item:{id:"minecraft:potion",Count:1b,tag:{CustomModelData:5}}},distance=..1] if entity @e[type=minecraft:item,distance=..1] run particle minecraft:witch ~ ~ ~ 1 1 1 0.01 75 force
+execute as @e[nbt=!{Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:16,Damage:0}}},nbt=!{Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:16,box_zamen:10}}},type=item,nbt={Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:16,box_zamen:9}}}] if entity @s at @s if entity @e[type=item,nbt={Item:{id:"minecraft:potion",Count:1b,tag:{CustomModelData:5}}},distance=..1] if entity @e[type=minecraft:item,distance=..1] run kill @e[type=item,distance=..2,nbt=!{Item:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:16,Damage:0}}}]

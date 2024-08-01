@@ -10,6 +10,22 @@
           "children": [
             {
               "type": "minecraft:item",
+              "name": "minecraft:fern",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:10,display:{Name:'{\"text\":\"Табак\"}'}}"
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.125
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
               "name": "minecraft:grass",
               "conditions": [
                 {
@@ -44,27 +60,11 @@
                   "chance": 0.125
                 }
               ]
-            },
-            {
-              "type": "minecraft:item",
-              "name": "minecraft:fern",
-              "functions": [
-                {
-                  "function": "minecraft:set_name",
-                  "entity": "this",
-                  "name": "Табак"
-                }
-              ],
-              "conditions": [
-                {
-                  "condition": "minecraft:random_chance",
-                  "chance": 0.125
-                }
-              ]
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "random_sequence": "minecraft:blocks/grass"
 }

@@ -1,13 +1,28 @@
 {
+    "display": {
+        "title": {
+            "text": "Aegis Hero!",
+            "bold": false,
+            "color": "blue"
+        },
+        "description": {
+            "text": "Скрафтите Aegis Hero",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:3}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+        
+    },
     "criteria": {
-        "unlocked": {
-            "trigger": "minecraft:recipe_unlocked",
-            "conditions": {
-                "recipe": "nbt:hero"
-            }
+        "Ok": {
+            "trigger": "minecraft:impossible"
         }
     },
-    "rewards": {
-        "function": "nbt:hero"
-    }
+    "parent": "nbt:start"
 }

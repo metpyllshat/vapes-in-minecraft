@@ -1,12 +1,27 @@
 {
-	"parent": "item/generated",
+	"credit": "Made with Blockbench",
+	"parent": "item/handheld_rod",
 	"textures": {
 		"layer0": "item/carrot_on_a_stick"
 	},
 	"overrides": [
-		{ "predicate": { "custom_model_data": 1 }, "model": "item/charonbaby"},
-		{ "predicate": { "custom_model_data": 2 }, "model": "item/manta_aio"},
-		{ "predicate": { "custom_model_data": 3 }, "model": "item/aegis_hero"},
-		{ "predicate": { "custom_model_data": 4 }, "model": "item/hqd"}
-	]
+		{"predicate": {"custom_model_data": 1}, "model": "vapes/charonbaby"},
+		{"predicate": {"custom_model_data": 2}, "model": "vapes/manta_aio"},
+		{"predicate": {"custom_model_data": 3}, "model": "vapes/aegis_hero"},
+		{"predicate": {"custom_model_data": 4}, "model": "vapes/hqd"},
+		{"predicate": {"custom_model_data": 11}, "model": "vapes/pasito1"},
+		{"predicate": {"custom_model_data": 12}, "model": "vapes/xros"},
+		{"predicate": {"custom_model_data": 13}, "model": "vapes/minifit"},
+		{"predicate": {"custom_model_data": 14}, "model": "vapes/pasito2"},
+		{"predicate": {"custom_model_data": 15}, "model": "vapes/mehmod"},
+		{"predicate": {"custom_model_data": 16}, "model": "vapes/rx300"},
+		{"predicate": {"custom_model_data": 111}, "model": "model"}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-31.42, 82.7, 105.91],
+			"translation": [0, 1, 1],
+			"scale": [0.3, 0.3, 0.3]
+		}
+	}
 }

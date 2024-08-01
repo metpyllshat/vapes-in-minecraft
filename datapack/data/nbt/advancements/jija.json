@@ -1,0 +1,36 @@
+{
+
+    "display": {
+        "title": {
+            "text": "Я НЕ ТАЙЛЕР ДЕРДЕН!",
+            "bold": false,
+            "color": "light_purple"
+        },
+        "description": {
+            "text": "Изготовьте жижу для вейпа",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:15}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "Ok": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:potion",
+                        "nbt": "{CustomModelData:5}"
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "nbt:start"
+}

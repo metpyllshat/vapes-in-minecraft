@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "FEF",
+        "###"
+    ],
+    "key": {
+        "F": {
+            "item": "minecraft:paper",
+            "nbt": "{CustomModelData:34}"
+        },
+        "#": {
+            "item": "minecraft:paper",
+            "nbt": "{CustomModelData:1}"
+        },
+        "E": {
+            "item": "minecraft:paper",
+            "nbt": "{CustomModelData:8}"
+        }
+    },
+    "result": {
+        "item": "minecraft:paper",
+        "count": 1,
+        "nbt": "{CustomModelData:6,display:{Name:'{\"text\":\"тушка Charon baby\",\"color\":\"blue\"}'}"
+    }
+}

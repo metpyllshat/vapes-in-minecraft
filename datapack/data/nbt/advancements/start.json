@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "Теперь ты один из нас",
+            "bold": true,
+            "color": "green"
+        },
+        "description": {
+            "text": "Спасибо за установка нашего дата-пака!",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:command_block"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "Ok": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

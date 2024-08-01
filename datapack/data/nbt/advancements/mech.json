@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "MechMod!",
+            "bold": false,
+            "color": "dark_red"
+        },
+        "description": {
+            "text": "Скрафтите MechMod",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:15}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+        
+    },
+    "criteria": {
+        "Ok": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "nbt:start"
+}

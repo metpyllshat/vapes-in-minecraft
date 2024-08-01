@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": {
+            "text": "Pasito1!",
+            "bold": false,
+            "color": "black"
+        },
+        "description": {
+            "text": "Скрафтите Pasito1",
+            "italic": true
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:11}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+        
+    },
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "nbt:pasito1"
+            }
+        }
+    },
+    "rewards": {
+        "function": "nbt:pasito1"
+    },
+    "parent": "nbt:start"
+}
