@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "nbt:propilen"
+            }
+        }
+    },
+    "rewards": {
+        "function": "nbt:propilen"
+    }
+}

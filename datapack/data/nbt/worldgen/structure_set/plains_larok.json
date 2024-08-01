@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "nbt:plains_larok",
+      "weight": 1000
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 40,
+    "spacing": 15,
+    "separation": 0
+  }
+}

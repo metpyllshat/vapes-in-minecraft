@@ -1,0 +1,12 @@
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:1}}]}] run item replace entity @s weapon.mainhand from entity @s weapon.offhand
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:2}}]}] run item replace entity @s weapon.mainhand from entity @s weapon.offhand
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:3}}]}] run item replace entity @s weapon.mainhand from entity @s weapon.offhand
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:4}}]}] run item replace entity @s weapon.mainhand from entity @s weapon.offhand
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:1}}]}] run item replace entity @s weapon.offhand with air
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:1}}]}] if score @s smoke matches 1.. run execute at @s anchored eyes run particle minecraft:effect ^ ^ ^1 0 0 0 0 50 normal
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:2}}]}] run item replace entity @s weapon.offhand with air
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:2}}]}] if score @s smoke matches 1.. run execute at @s anchored eyes run particle minecraft:effect ^ ^ ^1 0 0 0 0 50 normal
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:3}}]}] run item replace entity @s weapon.offhand with air
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:3}}]}] if score @s smoke matches 1.. run execute at @s anchored eyes run particle minecraft:effect ^ ^ ^1 0 0 0 0 50 normal
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:4}}]}] run item replace entity @s weapon.offhand with air
+execute as @a[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:4}}]}] if score @s smoke matches 1.. run execute at @s anchored eyes run particle minecraft:effect ^ ^ ^1 0 0 0 0 50 normal

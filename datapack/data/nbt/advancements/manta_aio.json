@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "nbt:manta_aio"
+            }
+        }
+    },
+    "rewards": {
+        "function": "nbt:manta_aio"
+    }
+}

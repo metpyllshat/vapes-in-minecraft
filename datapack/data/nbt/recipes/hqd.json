@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#LS",
+        "ORO",
+        "OIO"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:potion"
+        },
+        "L": {
+            "item": "minecraft:lever"
+        },
+        "S": {
+            "item": "minecraft:stone_button"
+        },
+        "O": {
+            "item": "minecraft:orange_concrete"
+        },
+        "R": {
+            "item": "minecraft:redstone_block"
+        },
+        "I": {
+            "item": "minecraft:iron_block"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

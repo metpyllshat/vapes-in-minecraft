@@ -1,0 +1,15 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{Damage:25}"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": ":КОНЧИЛАСЬ ЖИЖА","color":"red"
+      }
+    ],
+    "replace": true
+  }
+]

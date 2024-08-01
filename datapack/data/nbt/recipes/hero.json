@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#WS",
+        "TRT",
+        "OCO"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:potion"
+        },
+        "W": {
+            "item": "minecraft:white_stained_glass"
+        },
+        "S": {
+            "item": "minecraft:stone_button"
+        },
+        "T": {
+            "item": "minecraft:white_concrete"
+        },
+        "R": {
+            "item": "minecraft:redstone_block"
+        },
+        "O": {
+            "item": "minecraft:red_concrete"
+        },
+        "C": {
+            "item": "minecraft:comparator"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}
